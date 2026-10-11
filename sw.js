@@ -1,7 +1,7 @@
 // GymLog service worker: app offline + caché de la base de ejercicios e imágenes
-const SHELL_CACHE = 'gymlog-shell-v1';
+const SHELL_CACHE = 'gymlog-shell-v2';
 const DATA_CACHE = 'gymlog-data';
-const SHELL = ['./', './index.html', './manifest.json', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
+const SHELL = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(SHELL_CACHE).then(c => c.addAll(SHELL)));

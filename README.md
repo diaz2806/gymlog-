@@ -11,7 +11,7 @@ Registro de entrenos tipo Hevy, como PWA para el iPhone. Sin backend: todo se gu
 - Funciona offline después de la primera carga (service worker).
 
 ## Publicar en GitHub Pages
-1. Crea el repo `gymlog` en GitHub y sube estos archivos tal cual (con la carpeta `icons/`).
+1. Crea el repo `gymlog` en GitHub y sube estos archivos tal cual (todo en la raíz, iconos incluidos).
 2. Settings → Pages → Deploy from a branch → `main` / `(root)`.
 3. Abre `https://diaz2806.github.io/gymlog/` en Safari → Compartir → **Añadir a pantalla de inicio**.
 
